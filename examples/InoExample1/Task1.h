@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <Arduino.h>
 
-#include "Task.h"
+#include <GSSArduTasks.h>
 
 class Task1 : public Task
 {
