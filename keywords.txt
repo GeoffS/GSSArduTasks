@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map For GSSArduTasks
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Task	KEYWORD1	GSSArduTasks
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setup	KEYWORD2
+loop	KEYWORD2
+needsSerial	KEYWORD2
