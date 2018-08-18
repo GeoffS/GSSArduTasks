@@ -23,9 +23,5 @@ class Task1 : public Task
 
 Task1 task1;
 
-Task* tasks[] = {NullTask, &task1};
-const uint8_t numTasks = 2;
-long nextTaskTime[numTasks];
-
-RUNTIME
+TASK_LIST(NullTask, &task1)
 
