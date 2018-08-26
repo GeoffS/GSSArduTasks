@@ -36,7 +36,7 @@ public:
 static NullTaskClass NullTaskInstance;
 static Task* NullTask = &NullTaskInstance;
 
-#define TASK_LIST(...)\
+#define RUN_TASKS(...)\
 Task* tasks[] = { __VA_ARGS__ };\
 const uint8_t numTasks = VA_NARGS(__VA_ARGS__);\
 long nextTaskTime[numTasks];\
