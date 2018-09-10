@@ -2,4 +2,4 @@
 
 Task1 task1;
 
-TASK_LIST(NullTask, &task1)
+RUN_TASKS(NullTask, &task1)
