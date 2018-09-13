@@ -45,13 +45,16 @@ void setup()\
 	bool needsSerial = false;\
 	for (uint8_t i = 0; i < numTasks; i++)\
 	{\
-		tasks[i]->setup();\
-		nextTaskTime[i] = 0;\
 		needsSerial |= tasks[i]->needsSerial();\
 	}\
 	if (needsSerial)\
 	{\
 		Serial.begin(9600);\
+	}\
+	for (uint8_t i = 0; i < numTasks; i++)\
+	{\
+		tasks[i]->setup();\
+		nextTaskTime[i] = 0;\
 	}\
 }\
 \
