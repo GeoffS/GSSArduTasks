@@ -1,2 +1,2 @@
 # GSSArduTasks
-Super-simple task framework for Arduino
+Super-simple cooperative multi-task framework for Arduino
